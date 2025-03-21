@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+#ingredientInput {
+  width: 80%;
+  padding: 10px;
+  margin-right: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+#searchButton {
+  padding: 10px 20px;
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#searchButton:hover {
+  background-color: #ff3300;
+}
+
+#recipeResults {
+  margin-top: 20px;
+}
+
+.recipe {
+  padding: 15px;
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.recipe h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.recipe p {
+  margin: 5px 0;
+}
